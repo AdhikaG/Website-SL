@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>My SL</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="nav.css">
+    <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
+    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" 
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"> -->
+
+</head>
+<body>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <a class="navbar-brand" href="#">SL Axiata</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+              
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <ul class="navbar-nav mr-auto">
+                    <li class="nav-item ">
+                      <a class="nav-link" href="home.html">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="mypackage.html">My Package</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Promo
+                      </a>
+                      <div class="dropdown-menu" aria-labelledby="Promo">
+                          <a class="dropdown-item" href="packagelist1.html">Package List</a>
+                          <a class="dropdown-item" href="#" aria-disabled="true" ><del>Discount</del></a>
+                          <a class="dropdown-item" href="#" aria-disabled="true" ><del>Extra Data</del></a>
+                          <a class="dropdown-item" href="#" aria-disabled="true" ><del>Cashback</del></a>
+                          <div class="dropdown-divider"></div>
+                          <a class="dropdown-item" href="mypromo.html">Promotion</a>
+                      </div>
+                    </li>
+                    <li class="nav-item active ">
+                        <a class="nav-link" href="feedback.html">Feedback <span class="sr-only">(current)</span></a>
+                      </li>
+                      <li class="nav-item ">
+                        <a class="nav-link" href="login.html">Logout <span class="sr-only">(current)</span></a>
+                      </li>
+                  </ul>
+                  <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                  </form>
+                </div>
+              </nav>
+         <hr>     
+         <br>
+              <!--Feedback-->
+              <div class="outer-container">
+              <h1 style="text-align: center;" id="animation-text" class="animation-text" ></h1>
+              <h4 style="text-align: center;" class="animation-text2"> </h4>
+              <br>
+              <form>
+                
+                    <div class="input-group">
+                      <div class="input-group-prepend">
+                        <span class="input-group-text">First and Last name</span>
+                      </div>
+                        <input type="text" aria-label="First name" class="form-control" placeholder="Enter Your First Name" 
+                        value="" maxlength="25" minlength="5" required>
+                        <input type="text" aria-label="Last name" class="form-control" placeholder="Enter Your Last Name"
+                        value="" maxlength="25" minlength="5" required >
+                    </div>
+                    <div class="input-group flex-nowrap">
+                        <div class="input-group-prepend">
+                          <span class="input-group-text" id="addon-wrapping">Email</span>
+                        </div>
+                        <input type="email" class="form-control" placeholder="example12@email.com" aria-label="Username" aria-describedby="addon-wrapping">
+                    </div>
+                    <div class="input-group flex-nowrap">
+                        <div class="input-group-prepend">
+                          <span class="input-group-text" id="addon-wrapping">Phone</span>
+                          <span class="input-group-text" id="numbers-62">+62</span>
+                        </div>
+                        <input type="number" class="form-control" placeholder="8766-1234-1245" aria-label="Username" aria-describedby="addon-wrapping">
+                    </div>
+                    <div class="input-group flex-nowrap">
+                        <div class="input-group-prepend">
+                          <span class="input-group-text" id="addon-wrapping">Problem</span>
+                        </div>
+                        <select class="form-control" id="exampleFormControlSelect1">
+                            <option>--Type--</option>
+                            <option>Feature</option>
+                            <option>App/Web bug</option>
+                            <option>Price</option>
+                            <option>Scam</option>
+                            <option>Complain</option>
+                            <option>Customer Service</option>
+                          </select>                      
+                    </div>
+                    <div class="input-group flex-nowrap">
+                        <div class="input-group-prepend">
+                          <span class="input-group-text" id="addon-wrapping">Feedback</span>
+                        </div>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Write your feedback here" required></textarea>
+                    </div>
+                    <div class="input-group">
+                        <div class="custom-file">
+                          <input type="file" class="custom-file-input" id="inputGroupFile04" aria-describedby="inputGroupFileAddon04">
+                          <label class="custom-file-label" for="inputGroupFile04">Choose file</label>
+                        </div>
+                        <div class="input-group-append">
+                          <button class="btn btn-outline-secondary" type="button" id="inputGroupFileAddon04">Attachment</button>
+                        </div>
+                    </div>
+                    <div class="button-container">
+                      <button type="button" class="btn btn-outline-primary" id="sent-button">Sent</button>
+                      <button type="reset" class="btn btn-outline-warning"id="reset-button" >Reset</span>
+                   
+        
+                      </div>
+                </form>
+                
+              </div>
+              <br>
+
+            <audio id="feedback-audio" style="margin-left: 45%; display: none;" controls autoplay loop>    
+              <source src="audio/Music2.mp3" type="audio/mpeg">
+           </audio>
+<br>
+
+          <div class="audio-animation">
+           <button id="hide-audio" class="btn btn-outline-warning">Hide</button>
+           <button id="show-audio" class="btn btn-outline-primary" >  Show </button>
+          </div>
+           <!-- footer  -->
+              <div class="card-footer" id="card-footer-feedback">
+                <div class="container">
+                  <div class="row">
+                    <div class="col-sm">
+                      <h5>SL Axiata Enterprise</h5> 
+                      <p>SL Asiata is one of the biggest mobile cellular providers in 
+                        Indonesia which provide phone calls and internet services for mobile phone
+                    </p>
+                    </div>
+                    <div class="col-sm">
+                        <ul style="list-style: none;">
+                          <li><h5>About Us</h5></li> 
+                          <li><i class="fas fa-map-marked"></i> Jl. Binus Anggrek 5 no 25</li>
+                          <li><i class="fas fa-phone-square"></i> +62412959612</li>
+                          <li><i class="far fa-envelope"></i> slasiata@gmail.com</li>
+                        </ul>
+                    </div>
+                    <div class="col-sm foot-list">
+                        <blockquote class="blockquote mb-0">Click for more</blockquote>
+                      <p>Please Follow us on our Social Media Profile in order ot keep you updated.</p>
+                      <a href="#"><i class="fab fa-twitter"></i></a>
+                      <a href="#"><i class="fab fa-instagram"></i></a>
+                      <a href="#"><i class="fab fa-line"></i></a>
+                      <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                  </div>
+                </div>
+                <div class="footer-copyright">    
+                    <p>© All Right reserved &copy; by Lie soros & Adhika Gaharu , 2019</p>    
+                </div>
+              </div>
+            
+            </div>
+
+
+
+
+<script src="https://kit.fontawesome.com/88dfe078d4.js" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://kit.fontawesome.com/eb40f536b7.js" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+<script src="feedback.js"></script>
+</body>
+</html>

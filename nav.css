@@ -1,0 +1,531 @@
+body{
+    font-family: poppins;
+}
+
+header .carousel-innger .item{
+    height: 100vh;
+}
+
+.navbar-inverse{
+    background-color: transparent;
+    border-color: transparent;
+}
+
+.navbar-inverse .navbar-brand{
+    color: #fff;
+    font-size: 40px;
+    padding: 40px 15px;
+    font-weight: 900;
+}
+
+.nav .navbar-nav .navbar-right{
+    margin: 25px 0;
+}
+.navbar-inverse .navbar-nav >li >a{
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.banner{
+    -webkit-background-size: cover  ;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+.carousel-caption{
+  padding-bottom: 250px;
+  font-family: poppins;  
+}
+.carousel-caption h2{
+    font-size: 70px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.carousel-caption h2 span{
+    color: yellow;
+}
+
+.carousel-caption a{
+    padding:15px 35px ;
+    display: inline-block;
+    margin-top: 15px;
+    color: #C0C0C0;
+    text-transform: uppercase;
+    border-radius:25px;
+    border: 2px solid #C0C0C0;
+    background-color: white;
+    font-weight: bold;
+}
+.carousel-control.right{
+    background-image: none;
+}
+.carousel-control.left{
+    background-image: none;
+}
+
+.carousel-indicators .active{
+    background-color: #fff;
+    border-color: yellow;
+}
+.btn-outline-success{
+    background-color:transparent;
+    color:black;
+
+}
+.btn-outline-success:hover{
+    background-color:green;
+}
+
+@media only screen and (min-widthl:768px) and (max-width:991px){
+    .carousel-caption{
+        padding-bottom: 350px;
+    }
+    .carousel-caption h2{
+        font-size: 50px;
+    }
+}
+@media only screen and (max-width :767px){
+    .navbar-inverse .navbar-brand{
+        font-size: 30px;
+        padding: 20px 15px;
+    }
+    .navbar-collapse{
+        background:rgba(0,0,0,0.5);
+    }
+    .carousel-caption{
+        padding-bottom: 120px;
+    }
+    .carousel-caption h2{
+        font-size: 25px;
+    }
+    .carousel-caption p{
+        font-size:18px;
+    }
+    .carousel-caption a{
+        padding:10px 25px;
+    }
+}
+
+/* ====== Bouncing Ball  Home =====  */
+
+#canvas-ball {
+
+    border: 2px solid black;
+    width: 100%;
+}
+
+
+/* Password and Email Login Things */
+
+#message {
+    display:none;
+    background: #f1f1f1;
+    color: #000;
+    position: relative;
+    padding: 20px;
+    margin-top: 10px;
+  }
+  
+  #message p {
+    padding: 10px 35px;
+    font-size: 18px;
+  }
+
+
+  #message2 {
+    display:none;
+    background: #f1f1f1;
+    color: #000;
+    position: relative;
+    padding: 20px;
+    margin-top: 10px;
+  }
+  
+  #message2 p {
+    padding: 10px 35px;
+    font-size: 18px;
+  }
+
+#submit{
+
+    margin-bottom: 20px;
+    width: 50%;
+    border-radius: 5px black;
+    text-align: center;
+
+}
+
+
+/* 
+==== Changes By Yours Truly ===  */
+
+/* @media screen and (max-width:1050px){
+
+   
+} */
+#login-body{
+
+  
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+  
+}
+#LoginBtn{
+
+    width: 20%;
+    font-weight: bold;
+}
+
+#LoginH1{
+
+    background-color: aqua;
+    color:#38515B;
+    font-weight: bold;
+    border: 2px solid white;
+    border-radius: 5px;
+    display: hidden;
+}
+
+
+.login-form{
+
+    text-align: center;
+}
+
+.login-form input{
+
+    width: 100%;
+}
+#login-page-h4{
+
+    text-align: center;
+}
+
+#modal-content-container p{
+
+    text-align: center;
+}
+
+#login-wallpaper{
+
+    height: 700px;
+}
+
+#sent-button{
+
+    margin-right: 20px;
+}
+
+.button-container{
+    
+    margin: 50px 0 auto 30%;
+}
+
+.button-container button{
+    
+
+    width: 30%;
+}
+
+#card-footer-login{
+
+
+    clear: both;
+    position: relative;
+    
+    width: 100%;
+}
+
+
+#card-footer-feedback{
+    clear: both;
+    position: relative;
+    margin-top: 50px;
+
+    width: 100%;
+}
+
+
+
+
+.input-group-text{
+
+    width: 400px;
+}
+
+
+#numbers-62{
+
+    width: 50px;
+
+}
+
+
+#daily{
+    width: 120px; 
+    border-radius: 15px;
+    
+}
+
+#weekly{
+
+    width: 160px; 
+    border-radius: 15px;
+    
+}
+#monthly{
+
+    width: 175px; 
+    border-radius: 15px;
+    
+}
+
+.carousel-package>.active, .carousel-package>.next, .carousel-package>.prev { 
+    width: 102.5%!important;
+ }
+
+.date-title{
+   margin-left: 5px;
+   background-color: #DCDCDC;
+   padding-left: 10px;
+}
+
+.wrapper-history{
+
+    text-align: center;
+
+}
+
+
+.carousel-caption a:hover{
+
+    background-color: aqua;
+    color: white;
+    text-decoration: none;
+
+}
+.carousel-item img {
+    height: 100%;
+}
+
+
+.wrapper-radio input {
+    box-sizing: border-box;
+    margin:-1px 0 0 7px;
+    outline: 0;
+    padding: 20px;
+    position: relative;
+    top: 9px;
+    vertical-align: top;
+ }
+
+/* Footer */
+.card-footer{
+    background-color: black ;
+    color: #fff;
+
+  
+    width: 100%;
+}
+
+
+
+.footer-copyright{
+    text-align: center;
+    background-color: black;
+    color: #fff;
+    /* margin-top: 40px; */
+}
+
+.container-button-payment{
+    padding: 20px;
+}
+
+
+/* #payment-button{
+
+    margin: auto;
+} */
+
+/* Promo page*/
+
+/* MyPackage page*/
+.progress-bar{
+    color: black;
+    font-size: 15px;
+    background-color: aqua;
+}
+.progress{
+    height: 20px;
+}
+
+
+
+/* ======Changes By Yours Truly ===== */
+
+
+#video-container{
+
+    width: 50%;
+    margin: auto;
+    padding-bottom: 20px;
+}
+
+.outer-container{
+
+    border-left: 30px solid teal;
+    border-right: 30px solid teal;
+}
+
+
+
+/* PRofile */
+.image-container {
+    position: relative;
+}
+
+.image {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s 
+}
+
+.profile-page button{
+    background: greenyellow;
+    color:black;
+    display: inline-block;
+    border-radius:10px;
+}
+
+.profile-page button:hover{
+    background: green;
+    color: #fff;
+    display: inline-block;
+    margin-top: 15px;
+    border-radius:10px;
+}
+
+.fa-facebook-square{
+    color: #3b5998;
+
+}
+.fa-line{
+    color:#00c300;
+}
+.fa-instagram{
+    color:#c13584;
+}
+.fa-youtube{
+    color: red;
+}
+.fa-weixin{
+    color: #09B83E;
+}
+
+@media screen and (max-width: 1080px) {
+   
+}
+@media screen and (max-width: 777px) {
+
+}
+@media screen and (max-width: 420px) {
+
+  
+
+}
+
+
+
+
+.animation-text{
+
+    margin-left: 22%;
+    display: flex;
+    flex-wrap: wrap;
+   
+}
+
+
+
+.animation-text2{
+
+    margin-left: 36%;
+    display: flex;
+    flex-wrap: wrap;
+   
+}
+
+.split-text2{
+
+    padding: 5px;
+   
+
+}
+
+.split-text{
+
+    padding: 5px;
+    font-size: 70px;
+
+}
+
+.audio-animation {
+
+    margin-left: 50%;
+}
+
+.audio-animation button {
+
+    margin-top: 20px;
+  
+}
+
+#hide-audio{
+    margin-left: -33%;
+}
+
+#show-audio{
+
+    margin-left: 10%;
+}
+
+.audio-animation button{
+
+    width: 30%;
+}
+
+#caraousel-package{
+
+
+    margin-top:30px;
+    margin-bottom: 20px;
+
+}
+
+@media screen and (max-width:420px){
+
+    #animation-text{
+        display: none;
+    }
+    .animation-text2{
+        display: none;
+    }
+}
+
+
+@media screen and (max-width:720px){
+
+
+
+    #animation-text{
+        display: none;
+    }
+    .animation-text2{
+        display: none;
+    }
+}
