@@ -6,7 +6,7 @@ My Team:
 1. 2201754652 - Adhika Rifqi Gaharu (Me)
 2. 2201759224 - Soros Lie
 
-Developed:
+Developed With:
 1. Using Visual Studio Code
 2. Language: HTML 5, CSS and Java Script
 3. Included Boostraps Framework
